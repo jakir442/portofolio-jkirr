@@ -2,11 +2,13 @@
   "name": "esportfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://portofolio-jkirr.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run dev"
   },
   "dependencies": {
     "@next/font": "^13.4.4",
