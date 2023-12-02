@@ -89,7 +89,7 @@ const About = () => {
             Tentang <span className="text-accent">Saya</span>.
           </motion.h2>
           <motion.p variants={fadeIn('right', 0.4)} initial="hidden" animate="show" exit="hidden" className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
-            Saya adalah seorang siswa SMK Al-Ghifari berusia 17 tahun yang menyukai dunia IT. Dan saya, baru menguasai dua bahasa pemrograman yaitu HTML dan CSS. Saya mempunyai cita-cita untuk menjadi seorang front-end Developer.
+            Saya adalah seorang siswa SMK Al-Ghifari berusia 17 tahun yang menyukai dunia IT. Saya mempunyai cita-cita untuk menjadi seorang front-end Developer. Harapan saya kedepannya adalah bisa menguasai bahasa pemrograman lebih banyak lagi.
           </motion.p>
           {/* counters */}
           <motion.div variants={fadeIn('right', 0.6)} initial="hidden" animate="show" exit="hidden" className="hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8">
