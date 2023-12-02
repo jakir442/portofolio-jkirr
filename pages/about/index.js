@@ -86,11 +86,10 @@ const About = () => {
         {/* text */}
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2 variants={fadeIn('right', 0.2)} initial="hidden" animate="show" exit="hidden" className="h2">
-            Captivating <span className="text-accent">stories</span> bright magnificent designs.
+            Tentang <span className="text-accent">Saya</span>.
           </motion.h2>
           <motion.p variants={fadeIn('right', 0.4)} initial="hidden" animate="show" exit="hidden" className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
-            10 years ago, I began Freelancing as a developer. Since then, I've done remote work for agencies, consulted for startups, and collaborated on digital products for business and consumer
-            use.
+            Saya adalah seorang siswa SMK Al-Ghifari berusia 17 tahun yang menyukai dunia IT. Dan saya, baru menguasai dua bahasa pemrograman yaitu HTML dan CSS. Saya mempunyai cita-cita untuk menjadi seorang front-end Developer.
           </motion.p>
           {/* counters */}
           <motion.div variants={fadeIn('right', 0.6)} initial="hidden" animate="show" exit="hidden" className="hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8">
